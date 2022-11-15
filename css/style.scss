@@ -522,3 +522,129 @@ img{
         font-size: 1.6rem;
     }
 }
+@media (max-width: 380px) {
+    .menu{
+        display: none;
+    }
+    .mobile_menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        width: 40vw;
+    }
+    .hed{
+        width: 97vw;
+    }
+    .zagolovok{
+        padding-bottom: 10rem;
+        h2{
+            font-size: 3.3rem;
+            line-height: 40px;
+            padding-left: 0;
+        }
+    }
+    p{
+        padding: 0 0 3rem 0;
+    }
+    .look{
+        padding: 2rem;
+        font-size: 1.4rem;
+        margin-left: 0;
+    }
+    .us{
+        .why{
+            margin-top: 4.43vh;
+            &::after{
+                display: none;
+            }
+        }
+    }
+    .us{
+        .why{
+            h3{
+                font-size: 3.8vh;
+            }
+        }
+    }
+    .skill{
+        gap: 5rem;
+        margin-top: 8vh;
+        flex-direction: column;
+        .stext{
+            padding-top: 3vh;
+        }
+    }
+    img{
+        padding-left: 0;
+        padding-bottom: 2.5vh;
+    }
+    .oven,
+    .mixer,
+    .skalka,
+    .produkt{
+        width: 70vw;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .vibir{
+        flex-direction: column;
+        width: 85vw;
+        margin: 0 auto;
+    }
+    .bred{
+        .ztext{
+            font-size: 2.7rem;
+            padding: 6.45vh 0;
+        }
+    }
+    .hlib{
+        gap: 4rem;
+        padding-bottom: 14vh;
+        width: 85vw;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .white{
+        border-radius: 5vh;
+    }
+    .about_us{
+        width: 85vw;
+    }
+    .abus{
+        font-size: 4rem;
+        padding-top: 6.43vh;
+        padding-bottom: 4.32vh;
+    }
+    .stre{
+        display: none;
+    }
+    .product{
+        .p{
+            width: 85vw;
+            .prod{
+                font-size: 4rem;
+            }
+        }
+    }
+    .bulki{
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .centr{
+        margin: 0 auto;
+    }
+    .footer{
+        padding-bottom: 3rem;
+        .foo{
+            width: 90vw;
+            flex-direction: column;
+        }
+    }
+    .adres{
+        text-align: center;
+    }
+    .adre{
+        text-align: center;
+    }
+}
