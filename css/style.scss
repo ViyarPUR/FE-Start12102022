@@ -34,6 +34,12 @@ main{
     justify-content: space-around;
     align-items: center;
 }
+.mm{
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ffff;
+    width: 25px;
+}
 .hed{
     display: flex;
     width: 80vw;
@@ -369,4 +375,150 @@ img{
     color: $firs-text-color;
     font-size: 2.4rem;
     font-weight: 700;
+}
+@media (min-width: 831px) and (max-width: 1201px) {
+    ul{
+        padding-right: 5vh;
+    }
+    .hed{
+        width: 95vw;
+        li{
+            padding: 0 0.5rem;
+        }
+    }
+    .skill{
+        gap: 6rem;
+        .stext{
+            font-size: 1.81vh;
+        }
+    }
+    .white{
+        border-radius: 3vh;
+        .htext{
+            font-size: 2.37vh;
+        }
+    }
+    .tel{
+        font-size: 2rem;
+    }
+    .footer{
+        .foo{
+            width: 90vw;
+        }
+    }
+}
+@media (min-width: 380px) and (max-width: 830px) {
+    .menu{
+        display: none;
+    }
+    .mobile_menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .hed{
+        width: 90vw;
+    }
+    .why{
+        margin-top: 3.43vh;
+        &::after{
+            display: none;
+        }
+    }
+    .us{
+        .why{
+            h3{
+                font-size: 5.43vh;
+            }
+        }
+    }
+    .skill{
+        flex-direction: column;
+        gap: 0;
+        margin: 0;
+    }
+    .oven,
+    .mixer,
+    .skalka,
+    .produkt{
+        width: 29vh;
+        margin: 0 auto;
+        text-align: center;
+    }
+    img{
+        padding: 4vh 0 1.5vh 0;
+    }
+    .skill{
+        .stext{
+            font-size: 2vh;
+            padding-top: 1vh;
+        }
+    }
+    .bred{
+        .ztext{
+            font-size: 5rem;
+            padding-top: 4.45vh;
+            padding-bottom: 4.45vh;
+        }
+    }
+    .vibir{
+        gap: 0.5rem;
+        .vib{
+            padding: 1.5rem 1.5rem;
+        }
+    }
+    .vibor{
+        padding: 1.5rem 1.5rem;
+    }
+    .hlib{
+        width: 52vw;
+        margin: 0 auto;
+        flex-direction: column;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        gap: 3rem;
+    }
+    .white{
+        border-radius: 3vh;
+    }
+    .stre{
+        display: none;
+    }
+    .about_us{
+        padding-bottom: 5vh;
+    }
+    .abus{
+        font-size: 5rem;
+        padding-top: 5.43vh;
+        padding-bottom: 4.32vh;
+    }
+    .prod{
+        font-size: 5rem;
+        padding-top: 6vh;
+        padding-bottom: 6vh;
+    }
+    .bulki{
+        gap: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .left,
+    .right{
+        width: 72vw;
+    }
+    .footer{
+        .foo{
+            width: 95vw;
+        }
+    }
+    .adres{
+        .adr{
+            font-size: 1.5rem;
+        }
+    }
+    .adre{
+        font-size: 1rem;
+    }
+    .tel{
+        font-size: 1.6rem;
+    }
 }
